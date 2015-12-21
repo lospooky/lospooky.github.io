@@ -8,10 +8,10 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : lospooky.github.io
+tagline: 100% static
 author :
-  name : Name Lastname
+  name : Lo Spooky
   email : blah@email.test
   github : username
   twitter : username
