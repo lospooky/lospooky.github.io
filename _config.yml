@@ -13,8 +13,8 @@ tagline: 100% static
 author :
   name : Lo Spooky
   email : blah@email.test
-  github : username
-  twitter : username
+  github : lospooky
+  twitter : simone.cirillo
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://lospooky.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
