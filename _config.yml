@@ -3,6 +3,7 @@
 permalink: /:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+gems: ['jekyll/scholar']
 highlighter: pygments
 
 # Themes are encouraged to use these universal variables 
@@ -132,3 +133,25 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+# Jekyll Scholar
+scholar:
+  style: apa
+  locale: en
+  
+  sort_by: none
+  order: ascending
+  
+  source: ./_bibliography
+  bibliography: spooky.bib
+  bibliography_template: bibliography
+  
+  replace_strings: true
+  join_strings:    true
+
+  repository: ./_bibliography
+
+  #details_dir:    bibliography
+  #details_layout: bibtex.html
+  #details_link:   Details
+
+  #query: "@*"
