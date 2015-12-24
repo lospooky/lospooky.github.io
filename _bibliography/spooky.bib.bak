@@ -26,7 +26,6 @@
 
   Month                    = {November},
 
-  Abstract                 = {We propose a Genetic Programming architecture for the generation of foreign exchange trading strategies. The system's principal features are the evolution of free-form strategies which do not rely on any prior models and the utilization of price series from multiple instruments as input data. This latter feature constitutes an innovation with respect to previous works documented in literature. In this article we utilize Open, High, Low, Close bar data at a 5 minutes frequency for the AUD.USD, EUR.USD, GBP.USD and USD.JPY currency pairs. We will test the implementation analyzing the in-sample and out-of-sample performance of strategies for trading the USD.JPY obtained across multiple algorithm runs. We will also evaluate the differences between strategies selected according to two different criteria: one relies on the fitness obtained on the training set only, the second one makes use of an additional validation dataset. Strategy activity and trade accuracy are remarkably stable between in and out of sample results. From a profitability aspect, the two criteria both result in strategies successful on out-of-sample data but exhibiting different characteristics. The overall best performing out-of-sample strategy achieves a yearly return of 19%},
   Url                      = {http://arxiv.org/abs/1411.2153}
 }
 

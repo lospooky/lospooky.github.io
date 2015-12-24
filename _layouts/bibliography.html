@@ -1,19 +1,46 @@
 ---
 ---
-{{reference}}
+<div id="{{key}}-citation">
+{{entry.author}}<br>
+<span><i> {{entry.title}}</i><span><br>
 
-<div id="{{key}}-materials">
-  <ul class="nav nav-pills">
+{% if entry.type == 'article' %}
+<span>{{entry.journal}}, 
+{% if entry.volume and entry.pages %}
+{{entry.volume}}:{{entry.pages}},
+{% endif %}
+{{entry.month}} {{entry.year}}</span>
+{% endif %}
+
+{% if entry.type == 'inproceedings' or entry.type == 'incollection' %}
+<span>In: {{entry.booktitle}}, {{entry.pages}}, {{entry.month}} {{entry.year}}</span>
+{% endif %}
+
+{% if entry.type == 'mastersthesis' %}
+<span>Master's Thesis. {{entry.school}}. {{entry.address}}. {{entry.month}} {{entry.year}}</span>
+{% endif %}
+
+<br />
+
     {% if entry.abstract %}
-    <li><a data-toggle="collapse" data-target="#{{key}}-abstract">Abstract</a></li>
-    <div id="{{key}}-abstract" class="collapse">{{entry.abstract}}</div>
+    <a data-toggle="collapse" data-target="#{{key}}-abstract" href="#{{key}}-abstract">[Abstract]</a>
+           
     {% endif %}
 
     {% if link %}
-    <li><a href="{{link}}">Download</a></li>
+    <a href="{{link}}">[Download]</a>
     {% endif %}
     
-    <li><a data-toggle="collapse" data-target="#{{key}}-bibtex">BibTex</a></li>
-    <pre id="{{key}}-bibtex" class="collapse">{{entry.bibtex}}</pre>  
-  </ul>
+    {% if entry.doi %}
+    <a href="{{entry.doi}}">[URL]</a>
+    {% endif %}
+    {% if entry.url %}
+    <a href="{{entry.url}}">[URL]</a>
+    {% endif %}
+    
+    <a data-toggle="collapse" data-target="#{{key}}-bibtex">[BibTex]</a>
+    <blockquote class="collapse" id="{{key}}-abstract">{{entry.abstract}}</blockquote>
+    <div id="{{key}}-bibtex" class="collapse"><pre>{{entry.bibtex}}</pre></div>
+     
+      
 </div>

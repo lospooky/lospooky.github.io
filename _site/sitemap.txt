@@ -8,5 +8,6 @@ http://lospooky.github.io/projects
 http://lospooky.github.io/publications
 http://lospooky.github.io/rss.xml
 http://lospooky.github.io/sitemap.txt
+http://lospooky.github.io/tests
 
 http://lospooky.github.io/hello-world
