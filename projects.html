@@ -6,6 +6,9 @@ group: navigation
 order: 2
 ---
 {% include JB/setup %}
+
+<ul>
 {% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }})
+  <li> <a href="{{repository.html_url}}">{{ repository.name }}</a></li>
 {% endfor %}
+</ul>
