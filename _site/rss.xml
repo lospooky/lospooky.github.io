@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-        <title>lospooky.github.io</title>
-        <description>lospooky.github.io - Lo Spooky</description>
-        <link>http://lospooky.github.io</link>
-        <atom:link href="http://lospooky.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Thu, 24 Dec 2015 17:13:32 +0100</lastBuildDate>
-        <pubDate>Thu, 24 Dec 2015 17:13:32 +0100</pubDate>
+        <title>Spooky Stuff</title>
+        <description>Spooky Stuff - Simone Cirillo</description>
+        <link>http://blog.spook.ee</link>
+        <atom:link href="http://blog.spook.ee/rss.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sun, 27 Dec 2015 18:11:25 +0100</lastBuildDate>
+        <pubDate>Sun, 27 Dec 2015 18:11:25 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -15,8 +15,8 @@
                 <description>
 &lt;p&gt;Obligatory Hello World Post! =)&lt;/p&gt;
 </description>
-                <link>http://lospooky.github.io/hello-world</link>
-                <guid>http://lospooky.github.io/hello-world</guid>
+                <link>http://blog.spook.ee/hello-world</link>
+                <guid>http://blog.spook.ee/hello-world</guid>
                 <pubDate>Mon, 21 Dec 2015 00:00:00 +0100</pubDate>
         </item>
 

@@ -1,13 +1,13 @@
 
-http://lospooky.github.io/about
-http://lospooky.github.io/atom.xml
-http://lospooky.github.io/contact
-http://lospooky.github.io/
-http://lospooky.github.io/posts
-http://lospooky.github.io/projects
-http://lospooky.github.io/publications
-http://lospooky.github.io/rss.xml
-http://lospooky.github.io/sitemap.txt
-http://lospooky.github.io/tests
+http://blog.spook.ee/about
+http://blog.spook.ee/atom.xml
+http://blog.spook.ee/contact
+http://blog.spook.ee/
+http://blog.spook.ee/posts
+http://blog.spook.ee/projects
+http://blog.spook.ee/publications
+http://blog.spook.ee/rss.xml
+http://blog.spook.ee/sitemap.txt
+http://blog.spook.ee/tests
 
-http://lospooky.github.io/hello-world
+http://blog.spook.ee/hello-world
