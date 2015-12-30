@@ -4,7 +4,7 @@
  <title>Spooky Stuff</title>
  <link href="http://blog.spook.ee/atom.xml" rel="self"/>
  <link href="http://blog.spook.ee"/>
- <updated>2015-12-30T17:46:46+01:00</updated>
+ <updated>2015-12-30T17:49:53+01:00</updated>
  <id>http://blog.spook.ee</id>
  <author>
    <name>Simone Cirillo</name>
@@ -22,7 +22,7 @@
 RavenSolver is a fully automated generative solver for Progressive Matrix Problems.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;i class=&quot;fa fa-globe  fa-lg&quot; style=&quot;padding-right: 5px;&quot; title=&quot;Project Page&quot;&gt;&lt;/i&gt;&lt;a href=&quot;http://blog.spook.ee/ravensolver&quot;&gt;Project Page&lt;/a&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-github  fa-lg&quot; style=&quot;padding-right: 5px;&quot; title=&quot;Repo&quot;&gt;&lt;/i&gt;&lt;a href=&quot;http://blog.spook.ee/ravensolver&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
+&lt;i class=&quot;fa fa-github  fa-lg&quot; style=&quot;padding-right: 5px;&quot; title=&quot;Repo&quot;&gt;&lt;/i&gt;&lt;a href=&quot;http://github.com/lospooky/ravensolver&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
