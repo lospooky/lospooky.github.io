@@ -5,10 +5,24 @@
         <description>Spooky Stuff - Simone Cirillo</description>
         <link>http://blog.spook.ee</link>
         <atom:link href="http://blog.spook.ee/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 27 Dec 2015 18:41:12 +0100</lastBuildDate>
-        <pubDate>Sun, 27 Dec 2015 18:41:12 +0100</pubDate>
+        <lastBuildDate>Wed, 30 Dec 2015 17:44:37 +0100</lastBuildDate>
+        <pubDate>Wed, 30 Dec 2015 17:44:37 +0100</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>Ravensolver Available</title>
+                <description>
+&lt;p&gt;Ravensolver, my Master’s Thesis project, is now available.&lt;br /&gt;
+RavenSolver is a fully automated generative solver for Progressive Matrix Problems.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-globe  fa-lg&quot; style=&quot;padding-right: 5px;&quot; title=&quot;Project Page&quot;&gt;&lt;/i&gt;&lt;a href=&quot;http://blog.spook.ee/ravensolver&quot;&gt;Project Page&lt;/a&gt;&lt;br /&gt;
+&lt;i class=&quot;fa fa-github  fa-lg&quot; style=&quot;padding-right: 5px;&quot; title=&quot;Repo&quot;&gt;&lt;/i&gt;&lt;a href=&quot;http://blog.spook.ee/ravensolver&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://blog.spook.ee/ravensolver</link>
+                <guid>http://blog.spook.ee/ravensolver</guid>
+                <pubDate>Wed, 30 Dec 2015 00:00:00 +0100</pubDate>
+        </item>
 
         <item>
                 <title>Hello World!</title>
