@@ -5,10 +5,24 @@
         <description>Spooky Stuff - Simone Cirillo</description>
         <link>http://blog.spook.ee</link>
         <atom:link href="http://blog.spook.ee/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Wed, 30 Dec 2015 17:49:53 +0100</lastBuildDate>
-        <pubDate>Wed, 30 Dec 2015 17:49:53 +0100</pubDate>
+        <lastBuildDate>Sun, 10 Jan 2016 19:04:01 +0100</lastBuildDate>
+        <pubDate>Sun, 10 Jan 2016 19:04:01 +0100</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>SynoShows Available</title>
+                <description>
+&lt;p&gt;SynoShows, my post-download scripts for managing TV Show episode downloads on my Synology NAS, are now available.&lt;br /&gt;
+Use them to fully automate those tedious tasks such as renaming the files and moving them to their archiving directory!&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-globe  fa-lg&quot; style=&quot;padding-right: 5px;&quot; title=&quot;Project Page&quot;&gt;&lt;/i&gt;&lt;a href=&quot;http://blog.spook.ee/synoshows&quot;&gt;Project Page&lt;/a&gt;&lt;br /&gt;
+&lt;i class=&quot;fa fa-github  fa-lg&quot; style=&quot;padding-right: 5px;&quot; title=&quot;Repo&quot;&gt;&lt;/i&gt;&lt;a href=&quot;http://github.com/lospooky/synoshows&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://blog.spook.ee/synoshows-available</link>
+                <guid>http://blog.spook.ee/synoshows-available</guid>
+                <pubDate>Sun, 10 Jan 2016 00:00:00 +0100</pubDate>
+        </item>
 
         <item>
                 <title>Ravensolver Available</title>

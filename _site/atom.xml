@@ -4,13 +4,27 @@
  <title>Spooky Stuff</title>
  <link href="http://blog.spook.ee/atom.xml" rel="self"/>
  <link href="http://blog.spook.ee"/>
- <updated>2015-12-30T17:49:53+01:00</updated>
+ <updated>2016-01-10T19:04:01+01:00</updated>
  <id>http://blog.spook.ee</id>
  <author>
    <name>Simone Cirillo</name>
    <email>blah@email.test</email>
  </author>
 
+ 
+ <entry>
+   <title>SynoShows Available</title>
+   <link href="http://blog.spook.ee/synoshows-available"/>
+   <updated>2016-01-10T00:00:00+01:00</updated>
+   <id>http://blog.spook.ee/synoshows-available</id>
+   <content type="html">
+&lt;p&gt;SynoShows, my post-download scripts for managing TV Show episode downloads on my Synology NAS, are now available.&lt;br /&gt;
+Use them to fully automate those tedious tasks such as renaming the files and moving them to their archiving directory!&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-globe  fa-lg&quot; style=&quot;padding-right: 5px;&quot; title=&quot;Project Page&quot;&gt;&lt;/i&gt;&lt;a href=&quot;http://blog.spook.ee/synoshows&quot;&gt;Project Page&lt;/a&gt;&lt;br /&gt;
+&lt;i class=&quot;fa fa-github  fa-lg&quot; style=&quot;padding-right: 5px;&quot; title=&quot;Repo&quot;&gt;&lt;/i&gt;&lt;a href=&quot;http://github.com/lospooky/synoshows&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Ravensolver Available</title>

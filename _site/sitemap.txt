@@ -10,5 +10,6 @@ http://blog.spook.ee/rss.xml
 http://blog.spook.ee/sitemap.txt
 http://blog.spook.ee/tests
 
+http://blog.spook.ee/synoshows-available
 http://blog.spook.ee/ravensolver-available
 http://blog.spook.ee/hello-world
