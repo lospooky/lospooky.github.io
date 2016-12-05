@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Back with a whole bunch of hopefully interesting notes on Machine Learning
+title: Back! Also, Machine Learning and Deep Learning Notes
 ---
 {% include JB/setup %}
 
