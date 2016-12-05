@@ -4,13 +4,29 @@
  <title>Spooky Stuff</title>
  <link href="http://blog.spook.ee/atom.xml" rel="self"/>
  <link href="http://blog.spook.ee"/>
- <updated>2016-01-10T19:04:01+01:00</updated>
+ <updated>2016-12-06T00:13:25+01:00</updated>
  <id>http://blog.spook.ee</id>
  <author>
    <name>Simone Cirillo</name>
    <email>blah@email.test</email>
  </author>
 
+ 
+ <entry>
+   <title>Back with a whole bunch of hopefully interesting notes on Machine Learning</title>
+   <link href="http://blog.spook.ee/back-and-mlnotes-available"/>
+   <updated>2016-12-06T00:00:00+01:00</updated>
+   <id>http://blog.spook.ee/back-and-mlnotes-available</id>
+   <content type="html">
+&lt;p&gt;During the past months I’ve been very busy with my job and I couldn’t muster the energy to keep on working on this page.&lt;br /&gt;
+A bit ahead of time, but my New Years’ resolution is to be more active here from now on.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;But let’s move on to the meatier announcement… I finally collected, scanned and organized a whole lot of notes I took in 2015 when
+I was studying Machine Learning and Deep Learning and here they are!&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-github  fa-lg&quot; style=&quot;padding-right: 5px;&quot; title=&quot;Repo&quot;&gt;&lt;/i&gt;&lt;a href=&quot;http://github.com/lospooky/mlnotes&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>SynoShows Available</title>
