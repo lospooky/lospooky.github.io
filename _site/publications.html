@@ -16,9 +16,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter-custom/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/twitter-custom/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -108,10 +108,6 @@
   
     
       
-      	
-      	<li><a href="/tests">Tests</a></li>
-      	
-      
     
   
 
@@ -134,10 +130,6 @@
 <div class="row-fluid">
   <div class="span12">
     
-
-
-
-
 <div id="bibliography">
 
 <ol>
@@ -151,29 +143,30 @@
 <span>AGI '15, 362-372. July 2015. Berlin, Germany.</span><br>
 </div>
 
-
-<a data-toggle="collapse" data-target="#1-abstract" href="#1-abstract"><i class="fa fa-align-justify  fa-lg" style="padding-right: 15px;" title="Abstract"></i></a>
-<a href="https://github.com/lospooky/lospooky.github.io/raw/master/_bibliography/strannegaard2015.pdf"><i class="fa fa-file-pdf-o  fa-lg" style="padding-right: 15px;" title="PDF"></i></a>
-<a href="http://dx.doi.org/10.1007/978-3-319-21365-1_37"><i class="fa fa-globe  fa-lg" style="padding-right: 15px;" title="External Link"></i></a>
-<a data-toggle="collapse" data-target="#1-bibtex"><i class="fa fa-quote-left  fa-lg" style="padding-right: 15px;" title="BibTeX"></i></a>
-
-              
-<blockquote class="collapse" id="1-abstract">
-Artificial emotions of different varieties have been used for
-controlling behavior, e.g. in cognitive architectures and reinforcement
-learning models. We propose to use artificial emotions for a different
-purpose: controlling concept development. Dynamic networks with mech
-anisms for adding and removing nodes are more flexible than networks
-with a fixed topology, but if memories are added whenever a new sit
-uation  arises,  then  these  networks  will  soon  grow  out  of  proportion.
-Therefore there is a need for striking a balance that ideally ensures that
-only the most useful memories will be formed and preserved in the long
-run. Humans have a tendency to form and preserve memories of situa
-tions that are repeated frequently or experienced as emotionally intense
-(strongly positive or strongly negative), while removing memories that
-do not meet these criteria. In this paper we present a simple network
-model with artificial emotions that imitates these mechanisms.
-</blockquote>
+<div style="margin-bottom: 20px;">
+  <a data-toggle="collapse" data-target="#1-abstract" href="#1-abstract"><i class="fa fa-align-justify  fa-lg" style="padding-right: 15px;" title="Abstract"></i></a>
+  <a href="https://github.com/lospooky/lospooky.github.io/raw/master/_bibliography/strannegaard2015.pdf"><i class="fa fa-file-pdf-o  fa-lg" style="padding-right: 15px;" title="PDF"></i></a>
+  <a href="http://dx.doi.org/10.1007/978-3-319-21365-1_37"><i class="fa fa-globe  fa-lg" style="padding-right: 15px;" title="External Link"></i></a>
+  <a data-toggle="collapse" data-target="#1-bibtex"><i class="fa fa-quote-left  fa-lg" style="padding-right: 15px;" title="BibTeX"></i></a>
+</div>
+<div class="collapse" id="1-abstract">              
+  <blockquote>
+  Artificial emotions of different varieties have been used for
+  controlling behavior, e.g. in cognitive architectures and reinforcement
+  learning models. We propose to use artificial emotions for a different
+  purpose: controlling concept development. Dynamic networks with mech
+  anisms for adding and removing nodes are more flexible than networks
+  with a fixed topology, but if memories are added whenever a new sit
+  uation  arises,  then  these  networks  will  soon  grow  out  of  proportion.
+  Therefore there is a need for striking a balance that ideally ensures that
+  only the most useful memories will be formed and preserved in the long
+  run. Humans have a tendency to form and preserve memories of situa
+  tions that are repeated frequently or experienced as emotionally intense
+  (strongly positive or strongly negative), while removing memories that
+  do not meet these criteria. In this paper we present a simple network
+  model with artificial emotions that imitates these mechanisms.
+  </blockquote>
+</div>
 
 <div id="1-bibtex" class="collapse"><pre>
 @incollection{strannegaard2015,
@@ -200,12 +193,15 @@ model with artificial emotions that imitates these mechanisms.
 <span>arxiv.org 1411.2153 [Preprint]. November 2014.</span><br>
 </div>
 
+<div style="margin-bottom: 20px;">
 <a data-toggle="collapse" data-target="#2-abstract" href="#2-abstract"><i class="fa fa-align-justify  fa-lg" style="padding-right: 15px;" title="Abstract"></i></a>
 <a href="https://github.com/lospooky/lospooky.github.io/raw/master/_bibliography/cirillo2014evolving.pdf"><i class="fa fa-file-pdf-o  fa-lg" style="padding-right: 15px;" title="PDF"></i></a>
 <a href="http://arxiv.org/abs/1411.2153"><i class="fa fa-globe  fa-lg" style="padding-right: 15px;" title="External Link"></i></a>
 <a data-toggle="collapse" data-target="#2-bibtex"><i class="fa fa-quote-left  fa-lg" style="padding-right: 15px;" title="BibTeX"></i></a>
-              
-<blockquote class="collapse" id="2-abstract">
+</div> 
+ 
+<div class="collapse" id="2-abstract">            
+<blockquote>
 We propose a Genetic Programming architecture for the generation of foreign 
 exchange trading strategies. The system's principal features are the evolution
 of free-form strategies which do not rely on any prior models and the utilization
@@ -223,7 +219,7 @@ criteria both result in strategies successful on out-of-sample data but exhibiti
 different characteristics. The overall best performing out-of-sample strategy
 achieves a yearly return of 19%.
 </blockquote>
-
+<div>
 <div id="2-bibtex" class="collapse"><pre>
 @article{cirillo2014evolving,
   title = {Evolving intraday foreign exchange trading strategies utilizing multiple instruments price series},
@@ -247,12 +243,15 @@ achieves a yearly return of 19%.
 <span>GECCO '14, 1141--1148. July 2014. Vancouver, Canada.</span><br>
 </div>
 
+<div style="margin-bottom: 20px;">
 <a data-toggle="collapse" data-target="#3-abstract" href="#3-abstract"><i class="fa fa-align-justify  fa-lg" style="padding-right: 15px;" title="Abstract"></i></a>
 <a href="https://github.com/lospooky/lospooky.github.io/raw/master/_bibliography/cirillo2014.pdf"><i class="fa fa-file-pdf-o  fa-lg" style="padding-right: 15px;" title="PDF"></i></a>
 <a href="http://dx.doi.org/10.1145/2598394.2605692"><i class="fa fa-globe  fa-lg" style="padding-right: 15px;" title="External Link"></i></a>
 <a data-toggle="collapse" data-target="#3-bibtex"><i class="fa fa-quote-left  fa-lg" style="padding-right: 15px;" title="BibTeX"></i></a>
+</div>
 
-<blockquote class="collapse" id="3-abstract">
+<div class="collapse" id="3-abstract">
+<blockquote>
 In this paper we describe a novel implementation of the Interpreter class for 
 the metaheuristic optimization framework HeuristicLab, comparing it with the 
 three existing interpreters provided with the framework. The Interpreter class 
@@ -266,6 +265,7 @@ on all evaluations, with comparatively better performance the larger the run
 population size, dataset length and tree size are, increasing HeuristicLab's 
 computational efficiency for large problem setups.
 </blockquote>
+</div>
 
 <div id="3-bibtex" class="collapse"><pre>
 @inproceedings{cirillo2014,
@@ -293,12 +293,15 @@ computational efficiency for large problem setups.
 <span>Cognitive Systems Research, 22-23:35-46. June 2013. Elsevier.</span><br>
 </div>
 
+<div style="margin-bottom: 20px;">
 <a data-toggle="collapse" data-target="#4-abstract" href="#4-abstract"><i class="fa fa-align-justify  fa-lg" style="padding-right: 15px;" title="Abstract"></i></a>
 <a href="https://github.com/lospooky/lospooky.github.io/raw/master/_bibliography/strannegaard2013.pdf"><i class="fa fa-file-pdf-o  fa-lg" style="padding-right: 15px;" title="PDF"></i></a>
 <a href=http://dx.doi.org/10.1016/j.cogsys.2012.08.002><i class="fa fa-globe  fa-lg" style="padding-right: 15px;" title="External Link"></i></a>
 <a data-toggle="collapse" data-target="#4-bibtex"><i class="fa fa-quote-left  fa-lg" style="padding-right: 15px;" title="BibTeX"></i></a>
+</div>
 
-<blockquote class="collapse" id="4-abstract">
+<div class="collapse" id="4-abstract">
+<blockquote>
 Progressive matrix problems are frequently used in modern IQ tests.
 In a progressive matrix problem, the task is to identify the missing element
 that completes the pattern of a pictorial matrix. We present a method for
@@ -314,6 +317,7 @@ problems considered. This score corresponds roughly to an IQ of 100.
 Finally, we conclude that it is possible to solve progressive matrix problems
 without analyzing potential answer alternatives and discuss some implications of this finding.
 </blockquote>
+</div>
 
 <div id="4-bibtex" class="collapse"><pre>
 @article{strannegaard2013,
@@ -342,12 +346,15 @@ without analyzing potential answer alternatives and discuss some implications of
 <span>Master's Thesis. Chalmers University of Technology. G&#246;teborg, Sweden. June 2010. </span><br>
 </div>
 
+<div style="margin-bottom: 20px;">
 <a data-toggle="collapse" data-target="#5-abstract" href="#5-abstract"><i class="fa fa-align-justify  fa-lg" style="padding-right: 15px;" title="Abstract"></i></a>
 <a href="https://github.com/lospooky/lospooky.github.io/raw/master/_bibliography/cirillo2010.pdf"><i class="fa fa-file-pdf-o  fa-lg" style="padding-right: 15px;" title="PDF"></i></a>
 <a href=http://studentarbeten.chalmers.se/publication/123536-an-anthropomorphic-solver-for-ravens-progressive-matrices><i class="fa fa-globe  fa-lg" style="padding-right: 15px;" title="External Link"></i></a>
 <a data-toggle="collapse" data-target="#5-bibtex"><i class="fa fa-quote-left  fa-lg" style="padding-right: 15px;" title="BibTeX"></i></a>
+</div>
 
-<blockquote class="collapse" id="5-abstract">
+<div class="collapse" id="5-abstract">
+<blockquote >
 The report describes a computer program for solving Raven's Progressive Matrices
 (RPM), a multiple choice test of abstract reasoning introduced by Dr. John C.
 Raven in 1936. Each RPM problem consists of a grid (or matrix) of 2x2 or 3x3
@@ -364,6 +371,7 @@ perception of the problems' different organizational levels. The program was
 tested on sections C, D and E of the Standard Progressive Matrices(SPM) and
 produced correct solutions for 28 of the 36 considered problems.
 </blockquote>
+</div>
 
 <div id="5-bibtex" class="collapse"><pre>
 @MastersThesis{cirillo2010,
