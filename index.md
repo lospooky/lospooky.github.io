@@ -4,7 +4,6 @@ title: Clean Slate!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
-{% include JB/analytics %}
 
 <h3>Latest Updates</h3>
 
