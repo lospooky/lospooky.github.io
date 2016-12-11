@@ -82,7 +82,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -106,7 +106,7 @@ JB :
     gauges :
         site_id : 'SITE ID'
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-88765161-1'
     getclicky :
       site_id : 
     mixpanel :
