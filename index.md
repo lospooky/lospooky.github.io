@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Clean Slate!
-tagline: Supporting tagline
+title: Spooky Stuff
+tagline: Musings of a Machine Learning Engineer
 ---
 {% include JB/setup %}
 
