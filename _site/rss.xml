@@ -5,10 +5,24 @@
         <description>Spooky Stuff - Simone Cirillo</description>
         <link>http://blog.spook.ee</link>
         <atom:link href="http://blog.spook.ee/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Mon, 12 Dec 2016 23:09:15 +0100</lastBuildDate>
-        <pubDate>Mon, 12 Dec 2016 23:09:15 +0100</pubDate>
+        <lastBuildDate>Wed, 28 Dec 2016 17:39:22 +0100</lastBuildDate>
+        <pubDate>Wed, 28 Dec 2016 17:39:22 +0100</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>Pyblur v0.2</title>
+                <description>
+&lt;p&gt;New Pyblur Release!&lt;br /&gt;
+Now you can blur your images using the point spread functions (kernels) used in:&lt;br /&gt;
+&lt;a href=&quot;http://www.fit.vutbr.cz/~ihradis/CNN-Deblur/&quot;&gt;Convolutional Neural Networks for Direct Text Deblurring&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-github  fa-lg&quot; style=&quot;padding-right: 5px;&quot; title=&quot;Repo&quot;&gt;&lt;/i&gt;&lt;a href=&quot;http://github.com/lospooky/pyblur&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://blog.spook.ee/pyblur-v0.2</link>
+                <guid>http://blog.spook.ee/pyblur-v0.2</guid>
+                <pubDate>Wed, 28 Dec 2016 00:00:00 +0100</pubDate>
+        </item>
 
         <item>
                 <title>Pyblur Available</title>
