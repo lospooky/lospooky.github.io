@@ -4,13 +4,61 @@
  <title>Spooky Stuff</title>
  <link href="http://blog.spook.ee/atom.xml" rel="self"/>
  <link href="http://blog.spook.ee"/>
- <updated>2016-12-28T17:39:22+01:00</updated>
+ <updated>2016-12-31T18:13:02+01:00</updated>
  <id>http://blog.spook.ee</id>
  <author>
    <name>Simone Cirillo</name>
    <email>blah@email.test</email>
  </author>
 
+ 
+ <entry>
+   <title>HowTo: Blur an Image on GPU with Torch</title>
+   <link href="http://blog.spook.ee/torch-blur-gist"/>
+   <updated>2016-12-31T00:00:00+01:00</updated>
+   <id>http://blog.spook.ee/torch-blur-gist</id>
+   <content type="html">
+&lt;p&gt;&lt;a href=&quot;http://torch.ch&quot;&gt;Torch&lt;/a&gt; is an amazing LuaJit/C/CUDA framework for scientific computing and it’s mainly
+used to develop and train neural networks.&lt;/p&gt;
+
+&lt;p&gt;Now, in order to blur an image we have to convolve it with a blurring kernel (also called point-spread-function).
+Convolutions usually are Torch’s bread and butter.&lt;br /&gt;
+Unfortunately though, the &lt;code&gt;image.conv2&lt;/code&gt; function we would normally use to convolve an image with a specified kernel does not support performing the operation on GPU, using CUDA. This could be an issue since pretty much any meaningful Torch setup runs in GPU and CPU &amp;lt;–&amp;gt; GPU memory transfers are very slow.&lt;/p&gt;
+
+&lt;p&gt;So what to do in case we want to blur, or otherwise convolve an image with a given kernel, on GPU?&lt;/p&gt;
+
+&lt;p&gt;We’ll just have to repurpose a &lt;code&gt;nn.SpatialConvolution&lt;/code&gt; layer, normally used as a building block for convolutional neural networks, and perform a forward pass! The general procedure is as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Instantiate a &lt;code&gt;nn.SpatialConvolution&lt;/code&gt; layer with input and output channels matching the number of channels in the input image, so 1 for Grayscale and 3 for RGB.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Generate our convolution kernel, Gaussian or otherwise&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set the &lt;code&gt;nn.SpatialConvolution&lt;/code&gt; weights relative to matching input/output channels to our convolution kernel; set all other weights and biases to 0&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Move the now ready &lt;code&gt;nn.SpatialConvolution&lt;/code&gt; layer to GPU&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Perform a forward pass on the input image&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Here’s a sample Gist for your convenience!&lt;/p&gt;
+
+&lt;div style=&quot;margin-bottom: 20px;&quot;&gt;
+	&lt;a data-toggle=&quot;collapse&quot; data-target=&quot;#gist&quot; href=&quot;#gist&quot; class=&quot;btn btn-info&quot;&gt;&lt;span class=&quot;fa fa-github  fa-lg&quot;&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;Show Gist&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;collapse&quot; id=&quot;gist&quot;&gt;
+	&lt;script src=&quot;https://gist.github.com/lospooky/e4ef2c1a58b8634bfaf8d6dac4e3f6a7.js&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Pyblur v0.2</title>

@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Spooky Stuff</title>
+    <title>HowTo: Blur an Image on GPU with Torch</title>
     
     <meta name="author" content="Simone Cirillo">
 
@@ -124,33 +124,76 @@
       <div class="content">
         
 <div class="page-header">
-  <h1>Spooky Stuff
-	   <br> <small>Musings of a Machine Learning Engineer</small></h1>
+  <h1>HowTo: Blur an Image on GPU with Torch </h1>
 </div>
 
-<div class="row-fluid">
+<div class="row-fluid post-full">
   <div class="span12">
-    
-<h3>Latest Updates</h3>
+    <div class="date">
+      <span>31 December 2016</span>
+    </div>
+    <div class="content">
+      
+<p><a href="http://torch.ch">Torch</a> is an amazing LuaJit/C/CUDA framework for scientific computing and it’s mainly
+used to develop and train neural networks.</p>
 
-<ul class="posts">
-  
-    <li><span>31 Dec 2016</span> &raquo; <a href="/torch-blur-gist">HowTo: Blur an Image on GPU with Torch</a></li>
-  
-    <li><span>28 Dec 2016</span> &raquo; <a href="/pyblur-v0.2">Pyblur v0.2</a></li>
-  
-    <li><span>11 Dec 2016</span> &raquo; <a href="/pyblur-available">Pyblur Available</a></li>
-  
-    <li><span>06 Dec 2016</span> &raquo; <a href="/back-and-mlnotes-available">Back! Also, Machine Learning and Deep Learning Notes</a></li>
-  
-    <li><span>10 Jan 2016</span> &raquo; <a href="/synoshows-available">SynoShows Available</a></li>
-  
-    <li><span>30 Dec 2015</span> &raquo; <a href="/ravensolver-available">Ravensolver Available</a></li>
-  
-    <li><span>21 Dec 2015</span> &raquo; <a href="/hello-world">Hello World!</a></li>
-  
+<p>Now, in order to blur an image we have to convolve it with a blurring kernel (also called point-spread-function).
+Convolutions usually are Torch’s bread and butter.<br />
+Unfortunately though, the <code>image.conv2</code> function we would normally use to convolve an image with a specified kernel does not support performing the operation on GPU, using CUDA. This could be an issue since pretty much any meaningful Torch setup runs in GPU and CPU &lt;–&gt; GPU memory transfers are very slow.</p>
+
+<p>So what to do in case we want to blur, or otherwise convolve an image with a given kernel, on GPU?</p>
+
+<p>We’ll just have to repurpose a <code>nn.SpatialConvolution</code> layer, normally used as a building block for convolutional neural networks, and perform a forward pass! The general procedure is as follows:</p>
+
+<ul>
+  <li>
+    <p>Instantiate a <code>nn.SpatialConvolution</code> layer with input and output channels matching the number of channels in the input image, so 1 for Grayscale and 3 for RGB.</p>
+  </li>
+  <li>
+    <p>Generate our convolution kernel, Gaussian or otherwise</p>
+  </li>
+  <li>
+    <p>Set the <code>nn.SpatialConvolution</code> weights relative to matching input/output channels to our convolution kernel; set all other weights and biases to 0</p>
+  </li>
+  <li>
+    <p>Move the now ready <code>nn.SpatialConvolution</code> layer to GPU</p>
+  </li>
+  <li>
+    <p>Perform a forward pass on the input image</p>
+  </li>
 </ul>
 
+<p><br />
+Here’s a sample Gist for your convenience!</p>
+
+<div style="margin-bottom: 20px;">
+	<a data-toggle="collapse" data-target="#gist" href="#gist" class="btn btn-info"><span class="fa fa-github  fa-lg"></span>&nbsp;&nbsp;Show Gist</a>
+</div>
+
+<div class="collapse" id="gist">
+	<script src="https://gist.github.com/lospooky/e4ef2c1a58b8634bfaf8d6dac4e3f6a7.js"></script>
+</div>
+
+    </div>
+
+    
+
+    
+
+    <!--<hr>-->
+    <div class="pagination" style="margin-top:50px;">
+      <ul>
+      
+        <li class="prev"><a href="/pyblur-v0.2" title="Pyblur v0.2">&larr; Previous</a></li>
+      
+        <li><a href="/posts.html">Post Archive</a></li>
+      
+        <li class="next disabled"><a>Next &rarr;</a>
+      
+      </ul>
+    </div>
+    <!--<hr>-->
+    
   </div>
 </div>
 
