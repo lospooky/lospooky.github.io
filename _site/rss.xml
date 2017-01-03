@@ -5,10 +5,25 @@
         <description>Spooky Stuff - Simone Cirillo</description>
         <link>http://blog.spook.ee</link>
         <atom:link href="http://blog.spook.ee/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sat, 31 Dec 2016 18:13:02 +0100</lastBuildDate>
-        <pubDate>Sat, 31 Dec 2016 18:13:02 +0100</pubDate>
+        <lastBuildDate>Tue, 03 Jan 2017 22:14:26 +0100</lastBuildDate>
+        <pubDate>Tue, 03 Jan 2017 22:14:26 +0100</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>Pyblur v0.2.3 - Fixes</title>
+                <description>
+&lt;p&gt;I noticed there were some issues when installing Pyblur 0.2 from pip, they’re now gone!&lt;br /&gt;
+This is the first time I am properly packaging a python module so it took me a little to wrap my head around everything involved with it :)&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-github  fa-lg&quot; style=&quot;padding-right: 5px;&quot; title=&quot;Repo&quot;&gt;&lt;/i&gt;&lt;a href=&quot;http://github.com/lospooky/pyblur&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://blog.spook.ee/pyblur-v0.2.3</link>
+                <guid>http://blog.spook.ee/pyblur-v0.2.3</guid>
+                <pubDate>Tue, 03 Jan 2017 00:00:00 +0100</pubDate>
+        </item>
 
         <item>
                 <title>HowTo: Blur an Image on GPU with Torch</title>
